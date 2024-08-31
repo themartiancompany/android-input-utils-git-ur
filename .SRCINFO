@@ -1,0 +1,20 @@
+pkgbase = android-input-utils-git
+	pkgdesc = Android input utilities.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gc91711297720e0b4df7b634284bf4e0fa38d399a
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-input-utils
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = libcrash-bash
+	provides = android-input-utils=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gc91711297720e0b4df7b634284bf4e0fa38d399a
+	conflicts = android-input-utils
+	source = android-input-utils.tar.gz::https://github.com/themartiancompany/android-input-utils/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-input-utils-git
